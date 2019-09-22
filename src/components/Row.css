@@ -1,0 +1,25 @@
+.Row {
+  display: grid;
+}
+
+.auto-fill {
+  grid-template-columns: repeat(auto-fill, minmax(0, 1fr));
+}
+.auto-fit {
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  box-sizing: border-box;
+  border: solid 1px #777;
+  background: #ccc;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}

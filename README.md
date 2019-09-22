@@ -1,3 +1,26 @@
+# Simple SpreadSheet
+
+Currently supports number input (64-bit float) and string formula input. Formula must start with `=`. Formula can include cell ids or numbers. Formula can include addition or subtraction signs.
+
+## Running in Development
+
+Clone this git repo, `cd` to the repo directory and run
+
+```bash
+npm install
+npm start
+```
+
+Application will spin up at `localhost:3000` in your preferred browser (defaults to Chrome). See below about [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) for more information.
+
+## Example Inputs
+
+`=A1+B1`
+`=B1+2.433`
+`4.2`
+`5000`
+`=1+2.3`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
